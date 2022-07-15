@@ -72,10 +72,15 @@ border-bottom: 1px solid #ececec;
 }
   
 
-.header-container {
+.header__container {
     display: flex;
     align-items: center;
-    padding-top: 0;
+    
+
+    margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding: 0 15px;
 }
 
 .logo {
@@ -110,14 +115,14 @@ border-bottom: 1px solid #ececec;
 }
 
 
-.header-contacts {
+.contacts {
     display: flex;
     margin-left: auto;
     padding-left: 0;
     list-style: none;
 }
 
-.header-list{
+.nav__list{
     
     list-style: none;
     position: relative;
@@ -126,7 +131,7 @@ border-bottom: 1px solid #ececec;
 
 
 
-.header-link{
+.nav__link{
     text-decoration: none;
     color: inherit;
     display: block;
@@ -157,7 +162,7 @@ border-bottom: 1px solid #ececec;
 }
 
 
-.contact-header {
+.contacts__link {
 
         font-weight: 500;
         line-height: 1.14;
@@ -170,12 +175,16 @@ border-bottom: 1px solid #ececec;
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: var(--transition-timing-function); 
+
+        text-decoration: none;
+            margin: 0;
+            padding: 0;
         
        
         
 }
 
-.feature-box {
+.adv__box {
     background-color: var(--bcg-color);
     margin-bottom: 30px;
 
@@ -184,7 +193,7 @@ border-bottom: 1px solid #ececec;
     justify-content: center;
     height: 120px;
 }
-.header-contacts-phone {
+.contacts__phone {
     margin-left: 50px;
     
 }
@@ -230,7 +239,7 @@ border-bottom: 1px solid #ececec;
     margin-right: 70px;
 }
 
-.header-list:not(:last-child) {
+.nav__list:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -483,8 +492,10 @@ border-bottom: 1px solid #ececec;
         
 }
 
-.advantages {
+.adv {
     padding-top: 58px;
+   
+        padding-bottom: 94px;
    
 }
 
@@ -657,13 +668,20 @@ padding: 10px 32px;
         
 }
 
-.adv-list {
+.adv__container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 0 15px;
+}
+
+.adv__list {
     display: flex;
     
     list-style: none;
 }
 
-.adv-head {
+.adv__boxtittle {
 
     font-size: 14px;
     font-weight: 700;
@@ -674,16 +692,16 @@ padding: 10px 32px;
    
 }
 
-.adv-item {
+.adv__item {
     width: 270px;
 }
 
-.adv-item:not(:last-child) {
+.adv__item:not(:last-child) {
     margin-right: 30px;
 }
  
 
-.adv-descr {
+.adv__descr {
 
     font-style: normal;
     font-weight: 400;
@@ -732,14 +750,28 @@ margin-right: 30px;
     bottom: 0;
 }
 
-.team-member-section {
+.team {
     background-color: var(--bcg-color);
     padding-top: 94px;
     padding-bottom: 94px;
-    
 }
 
-.team-member-list {
+.team__tittle {
+    font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        margin-bottom: 50px;
+}
+
+.team__container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        padding: 0 15px;
+}
+
+
+.team__list {
     display: flex;
     list-style: none;
     
@@ -747,7 +779,7 @@ margin-right: 30px;
 
 
 
-.team-member-name {
+.team__name {
     
         font-style: normal;
         font-weight: 500;
@@ -760,16 +792,16 @@ margin-right: 30px;
        
 }
 
-.team-member-item {
+.team__item {
     background-color: var(--color-basic);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-member-item:not(:last-child) {
+.team__item:not(:last-child) {
 margin-right: 30px;
 }
 
-.member-descr {
+.team__descr {
 
     
     font-size: 16px;
@@ -784,7 +816,7 @@ margin-right: 30px;
     
 }
 
-.member-block {
+.team__block {
     padding: 30px 0;
 }
 .visually-hidden {
@@ -801,16 +833,18 @@ margin-right: 30px;
     overflow: hidden;
 }
 
-.social-media {
+.socialmedia {
     display: flex;
     justify-content: center;
+    list-style: none;
+    
 }
 
-.social-media-item:not(:last-child) {
+.socialmedia__item:not(:last-child) {
     margin-right: 10px;
 }
 
-.social-media-link {
+.socialmedia__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -825,13 +859,13 @@ margin-right: 30px;
     transition-timing-function: var(--transition-timing-function), var(--transition-timing-function);
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.socialmedia__link:hover,
+.socialmedia__link:focus {
     color: var(--color-basic);
     background-color: var(--color-accent);
 }
 
-.social-media-icon {
+.socialmedia__icon {
     fill: currentColor;
 }
 
