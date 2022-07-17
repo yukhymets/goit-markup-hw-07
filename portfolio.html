@@ -15,44 +15,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <a href="./index.html" lang="en" class="logo link">
-          Web<span class="accent-logo-header">Studio</span>
+      <div class="header__container">
+        <a href="./index.html" lang="en" class="logo">
+          Web<span class="logo__accent">Studio</span>
         </a>
         <nav>
           <ul class="nav">
-            <li class="header-list">
-              <a href="./index.html" class="header-link">Студия</a>
+            <li class="nav__list">
+              <a href="./index.html" class="nav__link">Студия</a>
             </li>
-            <li class="header-list">
-              <a href="./portfolio.html" class="header-link current-link"
-                >Портфолио</a
-              >
+            <li class="nav__list nav__list--current">
+              <a href="./portfolio.html" class="nav__link">Портфолио</a>
             </li>
-            <li class="header-list">
-              <a href="" class="header-link">Контакты</a>
+            <li class="nav__list">
+              <a href="" class="nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contacts">
-          <li class="header-contacts-mail">
-            <a href="mailto:info@devstudio.com" class="contact-header link">
-              <svg class="icon-mail-mobile" width="16px" height="12px">
+        <ul class="contacts">
+          <li class="contacts__mail">
+            <a href="mailto:info@devstudio.com" class="contacts__link">
+              <svg class="contacts__icon" width="16px" height="12px">
                 <use href="images/icons.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="header-contacts-phone">
-            <a
-              href="tel:+380961111111"
-              class="contact-header link contact-number"
-            >
-              <svg class="icon-mail-mobile" width="10px" height="16px">
+          <li class="contacts__phone">
+            <a href="tel:+380961111111" class="contacts__link">
+              <svg class="contacts__icon" width="10px" height="16px">
                 <use href="images/icons.svg#icon-mobile"></use>
               </svg>
               +38 096 111 11 11</a
@@ -353,7 +349,7 @@
                 rel="noopener noreferrer"
                 aria-label="instagram"
               >
-                <svg class="social-media-icon" width="20" height="20">
+                <svg class="socialmedia__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-insta"></use>
                 </svg>
               </a>
@@ -366,7 +362,7 @@
                 rel="noopener noreferrer"
                 aria-label="twitter"
               >
-                <svg class="social-media-icon" width="20" height="20">
+                <svg class="socialmedia__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -379,7 +375,7 @@
                 rel="noopener noreferrer"
                 aria-label="facebook"
               >
-                <svg class="social-media-icon" width="20" height="20">
+                <svg class="socialmedia__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -392,7 +388,7 @@
                 rel="noopener noreferrer"
                 aria-label="linkedin"
               >
-                <svg class="social-media-icon" width="20" height="20">
+                <svg class="socialmedia__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>

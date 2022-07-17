@@ -1,0 +1,55 @@
+// reset
+@import "./utils/reset";
+// vars
+@import "./utils/vars";
+// visuall-hidden
+@import "./utils/visuallyhidden";
+// structure
+@import "./components/section";
+@import "./components/container";
+
+// body
+@import "./components/body";
+
+// header
+@import "./components/header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/contacts";
+
+// hero
+@import "./components/hero";
+
+// adv
+@import "./components/adv";
+
+// team
+
+@import "./components/team";
+@import "./components/socialmedia";
+
+// modal
+
+@import "./components/modal/module";
+
+// clients
+
+@import "./components/client";
+
+// portfolio
+@import "./components/portfolio";
+@import "./components/portfolio-card";
+@import "./components/portfolio-button";
+
+// work-list
+
+@import "./components/work-list";
+
+// footer
+
+@import "./components/footer";
+@import "./components/subscr-form";
+
+// contact-footer
+
+@import "./components/contact-footer";
